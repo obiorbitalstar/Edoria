@@ -17,7 +17,7 @@ export const pages = [
     textFontSize: "20px" // Custom font size for the text  
   },
   {
-    image: '.\\src\\images\\crystal_flicker.png',
+    image: 'images/crystal_flicker.png',
     widthandheight: { maxWidth: '100%', maxHeight: '100%' }
   },
   {
@@ -34,7 +34,7 @@ export const pages = [
     textFontSize: "20px" // Custom font size for the text
   },
   {
-    image: '.\\src\\images\\gathering.png',
+    image: 'images/gathering.png',
     widthandheight: { maxWidth: '100%', maxHeight: '100%' }
   },
   {
@@ -50,7 +50,7 @@ export const pages = [
     textFontSize: "20px" // Custom font size for the text
   },
   {
-    image: '.\\src\\images\\the_forest.png',
+    image: 'images/the_forest.png',
     widthandheight: { maxWidth: '100%', maxHeight: '100%' }
   },
   {
@@ -66,7 +66,7 @@ export const pages = [
 
   },
   {
-    image: '.\\src\\images\\through_the_forest.png',
+    image: 'images/through_the_forest.png',
     widthandheight: { maxWidth: '100%', maxHeight: '100%' }
 
   },
@@ -84,7 +84,7 @@ export const pages = [
 
   },
   {
-    image: '.\\src\\images\\guardianship.png',
+    image: 'images/guardianship.png',
     widthandheight: { maxWidth: '100%', maxHeight: '100%' }
   },
   {
@@ -101,7 +101,7 @@ The Shattered Plains, with its surreal beauty and inherent danger, had been a cr
 
   },
   {
-    image: '.\\src\\images\\sanctuary.png',
+    image: 'images/sanctuary.png',
     widthandheight: { maxWidth: '100%', maxHeight: '100%' }
   },
   {
@@ -116,7 +116,7 @@ The Shattered Plains, with its surreal beauty and inherent danger, had been a cr
 
   },
   {
-    image: '.\\src\\images\\inside.png',
+    image: 'images/inside.png',
     widthandheight: { maxWidth: '100%', maxHeight: '100%' }
   },
 
@@ -133,7 +133,7 @@ The Shattered Plains, with its surreal beauty and inherent danger, had been a cr
     textFontSize: "17px" // Custom font size for the text
   },
   {
-    image: '.\\src\\images\\restored.png',
+    image: 'images/restored.png',
     widthandheight: { maxWidth: '100%', maxHeight: '100%' }
   },
   {
@@ -158,7 +158,7 @@ The Shattered Plains, with its surreal beauty and inherent danger, had been a cr
 
   },
   {
-    image: '.\\src\\images\\after.png',
+    image: 'images/after.png',
     widthandheight: { maxWidth: '100%', maxHeight: '100%' }
   },
   {
@@ -172,7 +172,7 @@ The Shattered Plains, with its surreal beauty and inherent danger, had been a cr
   {
     title: "The end?",
     text: `Far from it. For Juana and Saed, this was merely a new beginning, a prologue to tales yet untold, with the promise that whatever realities they might explore, their paths would forever intertwine, ready for the wonders and challenges that lay ahead in the ever-expanding horizon of Edoria and beyond.`,
-    image: '.\\src\\images\\future.png',
+    image: 'images/future.png',
     widthandheight: { maxWidth: '100%', maxHeight: '75%' },
     titleFontSize: "40px", // Custom font size for the title
     textFontSize: "20px" // Custom font size for the text
