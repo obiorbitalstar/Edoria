@@ -25,10 +25,10 @@ function App() {
                 <h1 style={{ fontSize: page?.titleFontSize }}>{page?.title}</h1>
               )}              {page?.image && <img src={page?.image} style={page?.widthandheight} />}
               {page?.text && page.text.split('\n').map((paragraph, idx) => (
-          <p key={idx} style={{ fontSize: page.textFontSize }}>
-            {paragraph}
-          </p>
-        ))}
+                <p key={idx} style={{ fontSize: page.textFontSize }}>
+                  {paragraph}
+                </p>
+              ))}
 
             </div>
           </div>
