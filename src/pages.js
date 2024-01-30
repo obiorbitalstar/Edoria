@@ -1,7 +1,7 @@
 export const pages = [
   {
     title: "Welcome to the Chronicles of Edoria",
-    image: '/images/map1.png', // Replace with the actual path to the cover image
+    image: 'images/map1.png', // Replace with the actual path to the cover image
     text: "where magic intertwines with the fabric of reality, and tales of heroism transcend the ages.",
     widthandheight: { maxWidth: 'fit-content', maxHeight: '452px' }
   },
