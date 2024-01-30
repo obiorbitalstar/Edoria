@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  width: 100%;
+  text-align: center;
+}
+
+.main {
+  background-image: url('https://github.com/slyka85/assets/blob/master/bookcover2.png?raw=true');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.demoPage {
+  background-image: url('https://img.freepik.com/free-photo/vintage-grunge-paper-background_1048-10911.jpg?w=1060&t=st=1706560287~exp=1706560887~hmac=a7fefd7dee2d7c6618a94b5d2b3f358e4c0d0c94cead81041a8ff756d19e7a0e');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* here */
+
+.content h1 { /* title */
+  font-size: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.content img { /* image */
+  width: 100%;
+  height: 100%;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.content p {  /* text */
+  font-size: 29px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+/* mobile */
+@media (max-width: 1024px) {
+  .content h1 {
+    font-size: 70px;
+  }
+
+  .content img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .content p {
+    font-size: 30px;
+  }
+}

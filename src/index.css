@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+:root {
+  font-family:  'Stylish', serif;
+  line-height: 1;
+  font-weight: 100;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+  background-image: url('https://i.pinimg.com/736x/3c/c0/54/3cc0541a55ce0550f78246bed0a96380--vintage-floral-backgrounds-vintage-wallpapers.jpg');
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+}
+
